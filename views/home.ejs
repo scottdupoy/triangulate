@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Triangulate</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!--<link href="css/bootstrap-theme.min.css" rel="stylesheet">-->
+        <link href="css/theme.css" rel="stylesheet">
+    </head>
+    <body>
+        <div>
+            <div>
+                <label class="btn btn-default btn-file">
+                    Upload <input id="imageSelector" type="file" style="display: none;">
+                </label>
+            </div>
+            
+            <div class="section uploadedImage">
+                <h5>ig (scaled)</h5>
+                <img id="uploadedImage"/>
+            </div>
+            
+            <div class="section sourceCanvas">
+                <h5>src cvs (100%)</h5>
+                <canvas id="sourceCanvas"/>
+            </div>
+            
+            <div class="section targetCanvas">
+                <h5>tgt cvs (100%)</h5>
+                <canvas id="targetCanvas"/>
+            </div>
+            
+        </div>
+        <!-- scripts here so don't delay load -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/load.js"></script>
+    </body>
+</html>

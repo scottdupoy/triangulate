@@ -1,0 +1,11 @@
+server:
+    port: 443
+    https: true
+    ssl:
+        key:  /path/to/privkey.pem
+        cert: /path/to/fullchain.pem
+        ca:   /path/to/chain.pem
+
+session:
+    secret: secret-goes-here
+    sessionExpiryInSeconds: 3600

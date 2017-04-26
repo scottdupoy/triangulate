@@ -1,0 +1,21 @@
+{
+  "name": "triangulate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottdupoy/triangulate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scottdupoy/triangulate/issues"
+  },
+  "homepage": "https://github.com/scottdupoy/triangulate#readme",
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "js-yaml": "^3.8.3"
+  }
+}

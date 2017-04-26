@@ -1,0 +1,16 @@
+.section {
+    border-bottom: 2px solid #aaa;
+    padding: 5px;
+    margin: 10px;
+}
+
+/* temp opacity settings */
+canvas {
+    /*opacity: 0.1;*/
+}
+/* temp hide image. ultimately want to display it instead of the src canvas */
+.uploadedImage, .sourceCanvas {
+    /*doing this leads to 0x0 dimensions: display: none;*/
+    visibility: hidden;
+    position: absolute;
+}
